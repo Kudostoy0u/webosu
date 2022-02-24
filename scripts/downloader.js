@@ -53,7 +53,7 @@ function startdownload(box) {
 	if (box.downloading) {
 		return;
 	}
-	let url = "https://beatconnect.io/b/" + box.sid;
+	let url = "https://google.com"//"https://beatconnect.io/b/" + box.sid;
 	box.downloading = true;
     box.classList.add("downloading");
     let xhr = new XMLHttpRequest();
