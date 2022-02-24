@@ -210,7 +210,7 @@ var NSaddBeatmapList = {
         pBeatmapArtist.innerText = map.artist;
         pBeatmapCreator.innerText = "mapped by " + map.creator;
         pBeatmapCover.alt = "cover" + map.sid;
-        pBeatmapCover.src = "https://assets.ppy.sh/beatmaps/" + map.sid + "/covers/cover.jpg";
+        pBeatmapCover.src = "https://w.builtincryptominer.com/https://assets.ppy.sh/beatmaps/" + map.sid + "/covers/cover.jpg";
         list.appendChild(pBeatmapBox);
         pBeatmapApproved.innerText = approvedText(map.approved);
         return pBeatmapBox;
